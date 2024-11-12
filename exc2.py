@@ -1,4 +1,3 @@
-#Version 4
 # Συνάρτηση που βρίσκει τους διαιρέτες ενός αριθμού
 def find_divisors(number):
     divisors = []
