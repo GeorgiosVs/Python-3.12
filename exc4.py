@@ -20,7 +20,10 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
+user_input = input("Enter a number to find its Fibonacci value: ")
 
-# Παράδειγμα χρήσης:
-for i in range(5):
-    print(fibonacci(i))
+n = int(user_input)
+
+fib_value = fibonacci(n)
+
+print(f"The Fibonacci value of {n} is {fib_value}.")
