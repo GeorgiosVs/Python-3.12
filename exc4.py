@@ -22,5 +22,5 @@ def fibonacci(n):
 
 
 # Παράδειγμα χρήσης:
-for i in range(55):
+for i in range(5):
     print(fibonacci(i))
